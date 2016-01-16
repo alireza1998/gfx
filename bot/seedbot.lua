@@ -220,15 +220,6 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "Welcome",
-    "calculator",
-    "echo",
-    "floodcontrol",
-    "plugins",
-    "linkpv",
-    "time",
-    "translate",
-    "tagall"
     },
     sudo_users = {122835592,159887854,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -427,10 +418,6 @@ To give the invitation Link of group in Bots PV.
 
 !calc <number> [+ × ÷ -]📱
 (ماشین حساب!قابلیت استفاده از 4 عمل اصلی ریاضی)
-
-!spam😈
-(تبدیل حالت ربات ضد اسپن به اسپمر!)
-
 
 !owner😎
 returns group owner id
