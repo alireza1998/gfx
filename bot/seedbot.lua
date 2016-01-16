@@ -219,7 +219,22 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "leave_ban",
+    "Welcome",
+    "anti-link",
+    "anti_spam",
+    "antilink",
+    "autoleave",
+    "calculator",
+    "echo",
+    "echo1",
+    "floodcontrol",
+    "plugins",
+    "linkpv",
+    "locksticker",
+    "time",
+    "translate",
+    "tagall"
     },
     sudo_users = {122835592,159887854,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
