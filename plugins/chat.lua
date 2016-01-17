@@ -9,27 +9,27 @@ if msg.text == "Hello" then
 	return "سلام!لطفا انگلیسی چت نکن"
 end
 if msg.text == "hello" then
-	return "سلام و عرض ادب"
+	return "سلام و عرض ادب.اگر ممکنه در گروه فارسی تایپ کن"
 end
 if msg.text == "Salam" then
-	return "سلام.خودتو معرفی میکنی؟"
+	return "سلام دوست گلم.خودتو معرفی کن بیشتر آشنا شیم"
 end
 if msg.text == "salam" then
 	return "سلام دوست عزیزم"
 end
 if msg.text == "alireza" then
-	return "علیرضا؟با ادمین ربات کاری داری؟"
+	return "علیرضاادمین هستند.با ایشون کاری داری؟
 end
-if msg.text == "alireza" then
+if msg.text == "Alireza" then
 	return "آقای علیرضا ادمین ربات هستند"
 end
-if msg.text == "ALIREZA" then
+if msg.text == "Alireza" then
 	return "میشه بدونم با ادمین ربات چکار داری؟"
 end
 if msg.text == "gfx" then
 	return "بله"
 end
-if msg.text == "gfx" then
+if msg.text == "GFX" then
 	return "چکاری میتونم برات انجام بدم؟"
 end
 if msg.text == "bot" then
@@ -38,14 +38,14 @@ end
 if msg.text == "Bot" then
 	return "بله؟با من کاری داری؟"
 end
-if msg.text == "؟" then
-	return "سوالی داری؟"
+if msg.text == "سلام" then
+	return "سلام.خوش آمدی به گروهم.خودتو معرفی کن لطفا"
 end
 if msg.text == "Bye" then
 	return "بای"
 end
 if msg.text == "bye" then
-	return "!خدانگهدار"
+	return "خدانگهدار دوست عزیزم"
 end
 end
 
@@ -58,9 +58,9 @@ return {
 		"^[Aa]lireza$",
 		"^alireza$",
 		"^[Bb]ot$",
-		"^[Bb]lack team$",
+		"^[Gg]fx$",
 		"^[Bb]ye$",
-		"^?$",
+		"^سلام$",
 		"^[Ss]alam$",
 		}, 
 	run = run,
