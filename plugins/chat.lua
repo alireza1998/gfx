@@ -38,7 +38,7 @@ end
 if msg.text == "Bot" then
 	return "بله؟با من کاری داری؟"
 end
-if msg.text == "سلام" then
+if msg.text == "black team" then
 	return "سلام.خوش آمدی به گروهم.خودتو معرفی کن لطفا"
 end
 if msg.text == "Bye" then
@@ -60,7 +60,7 @@ return {
 		"^[Bb]ot$",
 		"^[Gg]fx$",
 		"^[Bb]ye$",
-		"^سلام$",
+		"^black team$",
 		"^[Ss]alam$",
 		}, 
 	run = run,
