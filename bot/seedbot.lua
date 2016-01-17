@@ -230,13 +230,7 @@ function create_config( )
     "hi",
     "info",
     "txt2img",
-    "locksticker",
-    "chat",
-    "Auto_Leave",
-    "Dictionary",
-    "Google",
-    "Quran",
-    "Web_Shot",
+    "chat"
     },
     sudo_users = {122835592,159887854,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
