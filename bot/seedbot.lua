@@ -228,7 +228,6 @@ function create_config( )
     "plugins",
     "qr",
     "hi",
-    "info",
     "txt2img",
     "tagall"
     },
