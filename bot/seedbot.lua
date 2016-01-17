@@ -222,7 +222,7 @@ function create_config( )
     "leave_ban",
     "block",
     "linkpv",
-    "tagall",
+    "chat",
     "time",
     "translate",
     "plugins",
@@ -230,7 +230,7 @@ function create_config( )
     "hi",
     "info",
     "txt2img",
-    "chat"
+    "tagall"
     },
     sudo_users = {122835592,159887854,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
